@@ -60,9 +60,9 @@ sensor:
 tts:
   platform: google
 
- homma_control:
-   home_id: e535beef-896f-4a70-ac9a-b476f7c977cc
-   session_token: qZOM_m7BIP7-d8nxWmbj
+homma_control:
+  home_id: e535beef-896f-4a70-ac9a-b476f7c977cc
+  session_token: qZOM_m7BIP7-d8nxWmbj
 
 # mqtt:
 #   broker: 10.0.0.100
@@ -72,11 +72,11 @@ tts:
 #   password: cantgetin789520
 
 mqtt:
-    broker: mqtt-stage.homma.io
-    port: 1883
-    client_id: home-assistant-jwills
-    username: homma
-    password: WJTRTcEEvrJNgLKWgUK8jLzE7WQyNV
+  broker: mqtt-stage.homma.io
+  port: 1883
+  client_id: home-assistant-jwills
+  username: homma
+  password: WJTRTcEEvrJNgLKWgUK8jLzE7WQyNV
 
 zwave:
   usb_path: /dev/ttyACM0
