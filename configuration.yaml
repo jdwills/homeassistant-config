@@ -2,8 +2,8 @@ homeassistant:
   # Name of the location where Home Assistant is running
   name: Jonathan's Home
   # Location required to calculate the time the sun rises and sets
-  latitude: 37.5402
-  longitude: -122.3041
+  latitude: 37.542874
+  longitude: -122.283156
   # Impacts weather/sunrise data (altitude above sea level in meters)
   elevation: 8
   # metric for Metric, imperial for Imperial
@@ -13,7 +13,7 @@ homeassistant:
   customize: !include customize.yaml
 
 zone:
-  name: My House
+  name: Jonathan's Home
   latitude: 37.542874
   longitude: -122.283156
   icon: mdi:home
