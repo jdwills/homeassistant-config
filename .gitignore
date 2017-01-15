@@ -1,7 +1,7 @@
 bak_zwcfg_0xe0ed260c.xml  
-/custom_components  
 home-assistant.log    
-OZW_Log.txt     
+OZW_Log.txt
+/custom_components     
 /tts               
 zwscene.xml
 deps             
