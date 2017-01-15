@@ -1,0 +1,125 @@
+
+  living_room:
+    name: Living Room
+    view: no
+    entities:
+      - binary_sensor.aeotec_zw100_multisensor_6_sensor_9_0
+      - sensor.aeotec_zw100_multisensor_6_alarm_level_9_1
+      - sensor.aeotec_zw100_multisensor_6_alarm_type_9_0
+      - sensor.aeotec_zw100_multisensor_6_burglar_9_10
+      - sensor.aeotec_zw100_multisensor_6_luminance_9_3
+      - sensor.aeotec_zw100_multisensor_6_relative_humidity_9_5
+      - sensor.aeotec_zw100_multisensor_6_sourcenodeid_9_2
+      - sensor.aeotec_zw100_multisensor_6_temperature_9_1
+      - sensor.aeotec_zw100_multisensor_6_ultraviolet_9_27
+
+  kitchen:
+    name: Kitchen
+    view: no
+    entities:
+      - binary_sensor.aeotec_zw100_multisensor_6_sensor_10_0
+      - sensor.aeotec_zw100_multisensor_6_alarm_level_10_1
+      - sensor.aeotec_zw100_multisensor_6_alarm_type_10_0
+      - sensor.aeotec_zw100_multisensor_6_burglar_10_10
+      - sensor.aeotec_zw100_multisensor_6_luminance_10_3
+      - sensor.aeotec_zw100_multisensor_6_relative_humidity_10_5
+      - sensor.aeotec_zw100_multisensor_6_sourcenodeid_10_2
+      - sensor.aeotec_zw100_multisensor_6_temperature_10_1
+      - sensor.aeotec_zw100_multisensor_6_ultraviolet_10_27
+
+  bedroom:
+    name: Bedroom
+    view: no
+    entities:
+      - binary_sensor.aeotec_zw100_multisensor_6_sensor_2_0
+      - sensor.aeotec_zw100_multisensor_6_alarm_level_2_1
+      - sensor.aeotec_zw100_multisensor_6_alarm_type_2_0
+      - sensor.aeotec_zw100_multisensor_6_burglar_2_10
+      - sensor.aeotec_zw100_multisensor_6_luminance_2_3
+      - sensor.aeotec_zw100_multisensor_6_relative_humidity_2_5
+      - sensor.aeotec_zw100_multisensor_6_sourcenodeid_2_2
+      - sensor.aeotec_zw100_multisensor_6_temperature_2_1
+      - sensor.aeotec_zw100_multisensor_6_ultraviolet_2_27
+
+  bathroom:
+    name: Bathroom
+    view: no
+    entities:
+      - binary_sensor.aeotec_zw100_multisensor_6_sensor_6_0
+      - sensor.aeotec_zw100_multisensor_6_alarm_level_6_1
+      - sensor.aeotec_zw100_multisensor_6_alarm_type_6_0
+      - sensor.aeotec_zw100_multisensor_6_burglar_6_10
+      - sensor.aeotec_zw100_multisensor_6_luminance_6_3
+      - sensor.aeotec_zw100_multisensor_6_relative_humidity_6_5
+      - sensor.aeotec_zw100_multisensor_6_sourcenodeid_6_2
+      - sensor.aeotec_zw100_multisensor_6_temperature_6_1
+      - sensor.aeotec_zw100_multisensor_6_ultraviolet_6_27
+
+  balcony:
+    name: Balcony
+    view: no
+    entities:
+      - binary_sensor.aeotec_zw100_multisensor_6_sensor_7_0
+      - sensor.aeotec_zw100_multisensor_6_alarm_level_7_1
+      - sensor.aeotec_zw100_multisensor_6_alarm_type_7_0
+      - sensor.aeotec_zw100_multisensor_6_burglar_7_10
+      - sensor.aeotec_zw100_multisensor_6_luminance_7_3
+      - sensor.aeotec_zw100_multisensor_6_relative_humidity_7_5
+      - sensor.aeotec_zw100_multisensor_6_sourcenodeid_7_2
+      - sensor.aeotec_zw100_multisensor_6_temperature_7_1
+      - sensor.aeotec_zw100_multisensor_6_ultraviolet_7_27
+
+  motion:
+    name: Motion
+    entities:
+      - binary_sensor.aeotec_zw100_multisensor_6_sensor_9_0
+      - binary_sensor.aeotec_zw100_multisensor_6_sensor_10_0
+      - binary_sensor.aeotec_zw100_multisensor_6_sensor_2_0
+      - binary_sensor.aeotec_zw100_multisensor_6_sensor_6_0
+      - binary_sensor.aeotec_zw100_multisensor_6_sensor_7_0
+
+  living_room_lamp:
+    name: Living Room Lamp
+    entities:
+      - switch.aeotec_zw096_smart_switch_6_switch_11_0
+      - sensor.aeotec_zw096_smart_switch_6_energy_11_0
+      - sensor.aeotec_zw096_smart_switch_6_power_11_8
+      - sensor.aeotec_zw096_smart_switch_6_previous_reading_11_1
+      - sensor.aeotec_zw096_smart_switch_6_current_11_20
+      - sensor.aeotec_zw096_smart_switch_6_voltage_11_16
+
+  living_room_tv:
+    name: Living Room TV
+    entities:
+      - switch.aeotec_zw096_smart_switch_6_switch_14_0
+      - sensor.aeotec_zw096_smart_switch_6_energy_14_0
+      - sensor.aeotec_zw096_smart_switch_6_power_14_8
+      - sensor.aeotec_zw096_smart_switch_6_previous_reading_14_1
+      - sensor.aeotec_zw096_smart_switch_6_current_14_20
+      - sensor.aeotec_zw096_smart_switch_6_voltage_14_16
+
+  kitche_coffee_machine:
+    name: Kitchen Coffee Machine
+    entities:
+      - switch.aeotec_zw096_smart_switch_6_switch_12_0
+      - sensor.aeotec_zw096_smart_switch_6_energy_12_0
+      - sensor.aeotec_zw096_smart_switch_6_power_12_8
+      - sensor.aeotec_zw096_smart_switch_6_previous_reading_12_1
+      - sensor.aeotec_zw096_smart_switch_6_current_12_20
+      - sensor.aeotec_zw096_smart_switch_6_voltage_12_16
+
+  bedroom_lamp:
+    name: Bedroom Lamp
+    entities:
+      - switch.aeotec_zw096_smart_switch_6_switch_13_0
+      - sensor.aeotec_zw096_smart_switch_6_energy_13_0
+      - sensor.aeotec_zw096_smart_switch_6_power_13_8
+      - sensor.aeotec_zw096_smart_switch_6_previous_reading_13_1
+      - sensor.aeotec_zw096_smart_switch_6_current_13_20
+      - sensor.aeotec_zw096_smart_switch_6_voltage_13_16
+
+  all_lamps:
+    name: All Lamps
+    entities:
+      - group.bedroom_lamp
+      - group.living_room_lamp
