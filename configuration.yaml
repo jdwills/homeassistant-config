@@ -61,13 +61,13 @@ tts:
   platform: google
 
 homma_control:
-  home_id: e535beef-896f-4a70-ac9a-b476f7c977cc
+  home_id: 88f332a5-61df-4ee5-a82d-06a362c681d7
   session_token: qZOM_m7BIP7-d8nxWmbj
 
 # mqtt:
 #   broker: 10.0.0.100
 #   port: 1883
-#   client_id: home-assistant-1
+#   client_id: ome-assistant-jwills
 #   username: jwills
 #   password: cantgetin789520
 
