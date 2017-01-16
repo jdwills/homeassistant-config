@@ -118,6 +118,16 @@
       - sensor.aeotec_zw096_smart_switch_6_current_13_20
       - sensor.aeotec_zw096_smart_switch_6_voltage_13_16
 
+  kitchen_fridge:
+    name: Kitchen Fridge
+    entities:
+      - switch.aeotec_zw096_smart_switch_6_switch_15_0
+      - sensor.aeotec_zw096_smart_switch_6_energy_15_0
+      - sensor.aeotec_zw096_smart_switch_6_power_15_8
+      - sensor.aeotec_zw096_smart_switch_6_previous_reading_15_1
+      - sensor.aeotec_zw096_smart_switch_6_current_15_20
+      - sensor.aeotec_zw096_smart_switch_6_voltage_15_16
+
   all_lamps:
     name: All Lamps
     entities:
