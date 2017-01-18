@@ -24,8 +24,8 @@ zone:
 
 logger:
     default: error
-    homeassistant.components.homma_control: debug
-    custom_components.homma_control: debug
+    logs:
+        custom_components.homma_control: debug
 
 # Enables the frontend
 frontend:
