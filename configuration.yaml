@@ -22,7 +22,8 @@ zone:
 # Show links to resources in log and frontend
 #introduction:
 
-default: info
+logger:
+    default: info
 
 # Enables the frontend
 frontend:
