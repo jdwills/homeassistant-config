@@ -68,6 +68,19 @@
     sensor.aeotec_zw096_smart_switch_6_voltage_15_16:
         friendly_name: Kitchen Fridge (Voltage)
 
+    switch.aeotec_zw096_smart_switch_6_switch_16_0:
+        friendly_name: Kitchen Dishwasher
+    sensor.aeotec_zw096_smart_switch_6_energy_16_0:
+        friendly_name: Kitchen Dishwasher (Energy)
+    sensor.aeotec_zw096_smart_switch_6_power_16_8:
+        friendly_name: Kitchen Dishwasher (Power)
+    sensor.aeotec_zw096_smart_switch_6_previous_reading_16_1:
+        hidden: true
+    sensor.aeotec_zw096_smart_switch_6_current_16_20:
+        friendly_name: Kitchen Dishwasher (Current)
+    sensor.aeotec_zw096_smart_switch_6_voltage_16_16:
+        friendly_name: Kitchen Dishwasher (Voltage)
+
     ### MULTI-SENSORS ###
 
     sensor.aeotec_zw100_multisensor_6_burglar_7_10:

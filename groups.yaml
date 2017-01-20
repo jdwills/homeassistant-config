@@ -128,6 +128,15 @@
       - sensor.aeotec_zw096_smart_switch_6_current_15_20
       - sensor.aeotec_zw096_smart_switch_6_voltage_15_16
 
+  name: Kitchen Dishwasher
+    entities:
+      - switch.aeotec_zw096_smart_switch_6_switch_16_0
+      - sensor.aeotec_zw096_smart_switch_6_energy_16_0
+      - sensor.aeotec_zw096_smart_switch_6_power_16_8
+      - sensor.aeotec_zw096_smart_switch_6_previous_reading_16_1
+      - sensor.aeotec_zw096_smart_switch_6_current_16_20
+      - sensor.aeotec_zw096_smart_switch_6_voltage_16_16
+
   all_lamps:
     name: All Lamps
     entities:
