@@ -1,0 +1,12 @@
+- alias: Turn on light when sun sets
+    hide_entity: False
+    trigger:
+      platform: sun
+      event: sunset
+      offset: "-01:00:00"
+    condition:
+      condition: state
+      entity_id: group.all_devices
+      state: 'home'
+    action:
+      service: light.turn_on

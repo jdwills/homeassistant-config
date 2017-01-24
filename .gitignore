@@ -1,0 +1,13 @@
+bak_zwcfg_0xe0ed260c.xml  
+home-assistant.log    
+OZW_Log.txt
+/custom_components     
+/tts               
+zwscene.xml
+deps             
+home-assistant_v2.db  
+pyozw.sqlite  
+zwcfg_0xe0ed260c.xml
+.HA_VERSION
+.uuid
+secrets.yaml

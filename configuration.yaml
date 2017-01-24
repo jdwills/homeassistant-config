@@ -1,0 +1,84 @@
+homeassistant:
+  # Name of the location where Home Assistant is running
+  name: Jonathan's Home
+  # Location required to calculate the time the sun rises and sets
+  latitude: !secret latitude
+  longitude: !secret longitude
+  # Impacts weather/sunrise data (altitude above sea level in meters)
+  elevation: 8
+  # metric for Metric, imperial for Imperial
+  unit_system: imperial
+  # Pick yours from here: http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+  time_zone: America/Los_Angeles
+  customize: !include customize.yaml
+
+zone:
+  name: Jonathan's Home
+  latitude: !secret latitude
+  longitude: !secret longitude
+  icon: mdi:home
+  radius: 300
+
+# Show links to resources in log and frontend
+#introduction:
+
+logger:
+    default: error
+    logs:
+        custom_components.homma_control: debug
+
+# Enables the frontend
+frontend:
+
+http:
+  # Uncomment this to add a password (recommended!)
+  # api_password: PASSWORD
+  # Uncomment this if you are using SSL or running in Docker etc
+  # base_url: example.duckdns.org:8123
+
+# Checks for available updates
+updater:
+
+# Discover some devices automatically
+discovery:
+
+# Allows you to issue voice commands from the frontend in enabled browsers
+conversation:
+
+# Enables support for tracking state changes over time.
+history:
+
+# View all events in a logbook
+logbook:
+
+# Track the sun
+sun:
+
+# Homma ML
+#homma_ml:
+
+# Weather Prediction
+sensor:
+  platform: yr
+
+# Text to speech
+tts:
+  platform: google
+
+homma_control:
+  home_id: !secret homma_control_home_id
+  session_token: !secret homma_control_session
+
+mqtt:
+  broker: mqtt-stage.homma.io
+  port: 1883
+  client_id: home-assistant-jwills
+  username: !secret mqtt_username
+  password: !secret mqtt_password
+
+zwave:
+  usb_path: /dev/ttyACM0
+  config_path: /srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/libopenzwave-0.3.1-py3.4-linux-armv7l.egg/config
+
+# automation: !include automation.yaml
+group: !include groups.yaml
