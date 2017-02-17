@@ -2,8 +2,8 @@ homeassistant:
   # Name of the location where Home Assistant is running
   name: Jonathan's Home
   # Location required to calculate the time the sun rises and sets
-  latitude: 37.542874
-  longitude: -122.283156
+  latitude: !secret latitude
+  longitude: !secret longitude
   # Impacts weather/sunrise data (altitude above sea level in meters)
   elevation: 8
   # metric for Metric, imperial for Imperial
@@ -14,8 +14,8 @@ homeassistant:
 
 zone:
   name: Jonathan's Home
-  latitude: 37.542874
-  longitude: -122.283156
+  latitude: !secret latitude
+  longitude: !secret longitude
   icon: mdi:home
   radius: 300
 
@@ -66,22 +66,15 @@ tts:
   platform: google
 
 homma_control:
-  home_id: 88f332a5-61df-4ee5-a82d-06a362c681d7
-  session_token: qZOM_m7BIP7-d8nxWmbj
-
-# mqtt:
-#   broker: 10.0.0.100
-#   port: 1883
-#   client_id: ome-assistant-jwills
-#   username: jwills
-#   password: cantgetin789520
+  home_id: !secret homma_control_home_id
+  session_token: !secret homma_control_session_token
 
 mqtt:
   broker: mqtt-stage.homma.io
   port: 1883
   client_id: home-assistant-jwills
-  username: homma
-  password: WJTRTcEEvrJNgLKWgUK8jLzE7WQyNV
+  username: !secret mqtt_username
+  password: !secret mqtt_password
 
 zwave:
   usb_path: /dev/ttyACM0

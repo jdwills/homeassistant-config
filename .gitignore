@@ -10,3 +10,4 @@ pyozw.sqlite
 zwcfg_0xe0ed260c.xml
 .HA_VERSION
 .uuid
+secrets.yaml
