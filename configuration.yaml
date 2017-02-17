@@ -80,8 +80,8 @@ influxdb:
   host: pinheads-2ea85f92.influxcloud.net
   port: 8086
   database: jonathan_home_assistant
-  username: jonathan
-  password: kCRosrDhnK9NVjpbG
+  username: !secret influx_username
+  password: !secret influx_password
   ssl: true
   verify_ssl: true
   
