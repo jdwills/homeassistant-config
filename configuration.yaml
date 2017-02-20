@@ -54,9 +54,6 @@ logbook:
 # Track the sun
 sun:
 
-# Homma ML
-#homma_ml:
-
 # Weather Prediction
 sensor:
   platform: yr
@@ -65,9 +62,16 @@ sensor:
 tts:
   platform: google
 
+# -----------------------------------------------------------------------------
+# Homma
+
 homma_control:
   home_id: !secret homma_control_home_id
   session_token: !secret homma_control_session
+
+homma_ml:
+
+# -----------------------------------------------------------------------------
 
 mqtt:
   broker: mqtt-stage.homma.io
@@ -84,7 +88,7 @@ influxdb:
   password: kCRosrDhnK9NVjpbG
   ssl: true
   verify_ssl: true
-  
+
 zwave:
   usb_path: /dev/ttyACM0
   config_path: /srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/libopenzwave-0.3.1-py3.4-linux-armv7l.egg/config
