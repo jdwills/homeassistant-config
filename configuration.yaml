@@ -25,7 +25,8 @@ zone:
 logger:
     default: error
     logs:
-        custom_components.homma_control: debug
+        custom_components.homma_control: warning
+        custom_components.homma_ml: debug
 
 # Enables the frontend
 frontend:
@@ -70,6 +71,7 @@ homma_control:
   session_token: !secret homma_control_session_token
 
 homma_ml:
+  light: switch.aeotec_zw096_smart_switch_6_switch_11_0
 
 # -----------------------------------------------------------------------------
 
