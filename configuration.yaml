@@ -23,10 +23,10 @@ zone:
 #introduction:
 
 logger:
-    default: error
-    logs:
-        custom_components.homma_control: debug
-        custom_components.homma_ml: debug
+  default: warning
+  logs:
+    custom_components.homma_test: info
+    custom_components.homma_control: info
 
 # Enables the frontend
 frontend:
@@ -70,8 +70,11 @@ homma_control:
   home_id: !secret homma_control_home_id
   session_token: !secret homma_control_session_token
 
-homma_ml:
-  light: sensor.aeotec_zw100_multisensor_6_burglar_9_10
+#homma_ml:
+#  light: sensor.aeotec_zw100_multisensor_6_burglar_9_10
+
+homma_test:
+  target: sensor.aeotec_zw100_multisensor_6_burglar_9_10
 
 # -----------------------------------------------------------------------------
 
